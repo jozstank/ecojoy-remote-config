@@ -1,7 +1,7 @@
 {
   "server": {
     "latest_version": "1.0.5",
-    "force_update": false,
+    "force_update": true,
     "grace_days": 7,
     "grace_until": "",
     "update_title": "Update required — Ecojoy Server",
@@ -17,7 +17,7 @@
   },
   "client": {
     "latest_version": "1.0.5",
-    "force_update": false,
+    "force_update": true,
     "grace_days": 7,
     "grace_until": "",
     "update_title": "Update required — Ecojoy Client",
@@ -46,5 +46,66 @@
     "ads_button_label_mm": "ပိုမိုသိရှိရန်",
     "ads_button_label_th": "ดูเพิ่มเติม",
     "dismissible": true
-  }
+  },
+  "device_notices": [
+    {
+      "id": "listed_devices_warning",
+      "enabled": false,
+      "target": "both",
+      "scope": "listed",
+      "machine_ids": [
+        "00000000-0000-0000-0000-000000000001",
+        "00000000-0000-0000-0000-000000000002"
+      ],
+      "block_app": false,
+      "title": "App access review required",
+      "message": "This device ({machine_id}) is not authorized yet. Please copy your Machine ID and contact the administrator.",
+      "title_mm": "အက်ပ်အသုံးပြုခွင့် စစ်ဆေးရန်",
+      "message_mm": "ဤစက် ({machine_id}) ကို အတည်မပြုရသေးပါ။ Machine ID ကို ကူးယူပြီး Admin ဆက်သွယ်ပါ။",
+      "title_th": "ต้องตรวจสอบสิทธิ์ใช้งานแอป",
+      "message_th": "อุปกรณ์นี้ ({machine_id}) ยังไม่ได้รับอนุญาต กรุณาคัดลอก Machine ID แล้วติดต่อผู้ดูแลระบบ",
+      "contact_email": "mr.potato.bsi@gmail.com",
+      "contact_telegram": "@pedro_self_taught",
+      "contact_line": "@pedro_self_taught",
+      "dismissible": true
+    },
+    {
+      "id": "all_devices_reminder",
+      "enabled": false,
+      "target": "both",
+      "scope": "all",
+      "machine_ids": [],
+      "block_app": false,
+      "title": "License reminder",
+      "message": "Please ensure your Machine ID ({machine_id}) is registered with the administrator.",
+      "title_mm": "လိုင်စင်သတိပေးချက်",
+      "message_mm": "သင့် Machine ID ({machine_id}) ကို Admin ထံ မှတ်ပုံတင်ထားကြောင်း သေချာပါစေ။",
+      "title_th": "แจ้งเตือนไลเซนส์",
+      "message_th": "โปรดตรวจสอบว่า Machine ID ({machine_id}) ของคุณได้ลงทะเบียนกับผู้ดูแลระบบแล้ว",
+      "contact_email": "mr.potato.bsi@gmail.com",
+      "contact_telegram": "@pedro_self_taught",
+      "contact_line": "@pedro_self_taught",
+      "dismissible": true
+    },
+    {
+      "id": "blocked_device_example",
+      "enabled": false,
+      "target": "both",
+      "scope": "listed",
+      "machine_ids": [
+        "00000000-0000-0000-0000-000000000099"
+      ],
+      "block_app": true,
+      "title": "App access blocked",
+      "message": "This device ({machine_id}) is blocked. Please contact the administrator to restore access.",
+      "title_mm": "အက်ပ်အသုံးပြုခွင့် ပိတ်ထားသည်",
+      "message_mm": "ဤစက် ({machine_id}) ကို ပိတ်ထားပါသည်။ အသုံးပြုခွင့် ပြန်ရရန် Admin ဆက်သွယ်ပါ။",
+      "title_th": "แอปถูกระงับการใช้งาน",
+      "message_th": "อุปกรณ์นี้ ({machine_id}) ถูกบล็อก กรุณาติดต่อผู้ดูแลระบบเพื่อเปิดสิทธิ์ใช้งาน",
+      "contact_email": "mr.potato.bsi@gmail.com",
+      "contact_telegram": "@pedro_self_taught",
+      "contact_line": "@pedro_self_taught",
+      "dismissible": false
+    }
+  ]
 }
