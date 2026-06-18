@@ -1,7 +1,7 @@
 {
   "server": {
-    "latest_version": "1.0.0",
-    "force_update": false,
+    "latest_version": "1.0.5",
+    "force_update": true,
     "update_title": "Update required — Ecojoy Server",
     "update_message": "A newer version of Ecojoy Server is available. Please install the latest build to continue.",
     "update_title_mm": "အပ်ဒိတ်လိုအပ်ပါသည် — Ecojoy Server",
@@ -11,8 +11,8 @@
     "download_url": ""
   },
   "client": {
-    "latest_version": "1.0.0",
-    "force_update": false,
+    "latest_version": "1.0.5",
+    "force_update": true,
     "update_title": "Update required — Ecojoy Client",
     "update_message": "A newer version of Ecojoy Client is available. Please install the latest build to continue.",
     "update_title_mm": "အပ်ဒိတ်လိုအပ်ပါသည် — Ecojoy Client",
@@ -22,7 +22,7 @@
     "download_url": ""
   },
   "announcement": {
-    "enabled": false,
+    "enabled": true,
     "target": "both",
     "title": "Announcement",
     "message": "Welcome to Ecojoy Desktop App.",
