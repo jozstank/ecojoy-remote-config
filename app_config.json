@@ -1,0 +1,40 @@
+{
+  "server": {
+    "latest_version": "1.0.0",
+    "force_update": false,
+    "update_title": "Update required — Ecojoy Server",
+    "update_message": "A newer version of Ecojoy Server is available. Please install the latest build to continue.",
+    "update_title_mm": "အပ်ဒိတ်လိုအပ်ပါသည် — Ecojoy Server",
+    "update_message_mm": "Ecojoy Server ဗားရှင်းအသစ် ရရှိနိုင်ပါပြီ။ ဆက်လက်အသုံးပြုရန် နောက်ဆုံးဗားရှင်းကို ထပ်မံထည့်သွင်းပါ။",
+    "update_title_th": "ต้องอัปเดต — Ecojoy Server",
+    "update_message_th": "มี Ecojoy Server เวอร์ชันใหม่ กรุณาติดตั้งเวอร์ชันล่าสุดเพื่อใช้งานต่อ",
+    "download_url": ""
+  },
+  "client": {
+    "latest_version": "1.0.0",
+    "force_update": false,
+    "update_title": "Update required — Ecojoy Client",
+    "update_message": "A newer version of Ecojoy Client is available. Please install the latest build to continue.",
+    "update_title_mm": "အပ်ဒိတ်လိုအပ်ပါသည် — Ecojoy Client",
+    "update_message_mm": "Ecojoy Client ဗားရှင်းအသစ် ရရှိနိုင်ပါပြီ။ ဆက်လက်အသုံးပြုရန် နောက်ဆုံးဗားရှင်းကို ထပ်မံထည့်သွင်းပါ။",
+    "update_title_th": "ต้องอัปเดต — Ecojoy Client",
+    "update_message_th": "มี Ecojoy Client เวอร์ชันใหม่ กรุณาติดตั้งเวอร์ชันล่าสุดเพื่อใช้งานต่อ",
+    "download_url": ""
+  },
+  "announcement": {
+    "enabled": false,
+    "target": "both",
+    "title": "Announcement",
+    "message": "Welcome to Ecojoy Desktop App.",
+    "title_mm": "ကြေညာချက်",
+    "message_mm": "Ecojoy Desktop App ကို အသုံးပြုသည့်အတွက် ကျေးဇူးတင်ပါသည်။",
+    "title_th": "ประกาศ",
+    "message_th": "ยินดีต้อนรับสู่ Ecojoy Desktop App",
+    "show_ads": false,
+    "ads_link": "",
+    "ads_button_label": "Learn more",
+    "ads_button_label_mm": "ပိုမိုသိရှိရန်",
+    "ads_button_label_th": "ดูเพิ่มเติม",
+    "dismissible": true
+  }
+}
