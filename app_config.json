@@ -1,7 +1,7 @@
 {
   "server": {
     "latest_version": "1.0.5",
-    "force_update": true,
+    "force_update": false,
     "grace_days": 7,
     "grace_until": "",
     "update_title": "Update required — Ecojoy Server",
@@ -17,7 +17,7 @@
   },
   "client": {
     "latest_version": "1.0.5",
-    "force_update": true,
+    "force_update": flase,
     "grace_days": 7,
     "grace_until": "",
     "update_title": "Update required — Ecojoy Client",
@@ -71,7 +71,7 @@
     },
     {
       "id": "all_devices_reminder",
-      "enabled": false,
+      "enabled": true,
       "target": "both",
       "scope": "all",
       "machine_ids": [],
