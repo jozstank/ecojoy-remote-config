@@ -71,7 +71,7 @@
     },
     {
       "id": "all_devices_reminder",
-      "enabled": true,
+      "enabled": false,
       "target": "both",
       "scope": "all",
       "machine_ids": [],
