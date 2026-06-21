@@ -1,8 +1,8 @@
 {
   "server": {
     "latest_version": "1.0.0",
-    "force_update": false,
-    "grace_days": ,
+    "force_update": true,
+    "grace_days": 1,
     "grace_until": "",
     "update_title": "Update required — Ecojoy Server",
     "update_message": "A newer version of Ecojoy Server is available. Please install the latest build to continue.",
@@ -17,8 +17,8 @@
   },
   "client": {
     "latest_version": "1.0.0",
-    "force_update": false,
-    "grace_days": ,
+    "force_update": true,
+    "grace_days": 1,
     "grace_until": "",
     "update_title": "Update required — Ecojoy Client",
     "update_message": "A newer version of Ecojoy Client is available. Please install the latest build to continue.",
