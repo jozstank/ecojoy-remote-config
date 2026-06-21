@@ -71,7 +71,7 @@
     },
     {
       "id": "all_devices_reminder",
-      "enabled": true,
+      "enabled": false,
       "target": "both",
       "scope": "all",
       "machine_ids": [],
@@ -85,7 +85,7 @@
       "contact_email": "mr.potato.bsi@gmail.com",
       "contact_telegram": "@pedro_self_taught",
       "contact_line": "@pedro_self_taught",
-      "dismissible": true
+      "dismissible": false
     },
     {
       "id": "blocked_device_example",
