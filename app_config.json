@@ -1,6 +1,6 @@
 {
   "server": {
-    "latest_version": "1.0.7",
+    "latest_version": "1.0.9",
     "force_update": true,
     "grace_days": 2,
     "grace_until": "",
@@ -16,7 +16,7 @@
     "download_url": "https://www.google.com"
   },
   "client": {
-    "latest_version": "1.0.8",
+    "latest_version": "1.0.9",
     "force_update": true,
     "grace_days": 3,
     "grace_until": "",
