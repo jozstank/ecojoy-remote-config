@@ -112,7 +112,7 @@
       "enabled": true,
       "target": "server",
       "scope": "listed",
-      "machine_ids": [75c7a12e-a543-45b2-ba0c-e7ec23cb9bd6],
+      "machine_ids": ["75c7a12e-a543-45b2-ba0c-e7ec23cb9bd6"],
       "block_app": false,
       "block_connection": true,
       "title": "Block client connections on this server",
