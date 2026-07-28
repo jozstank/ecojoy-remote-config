@@ -1,4 +1,7 @@
 {
+  "registered": [
+    "00000000-0000-0000-0000-000000000001"
+  ],
   "server": {
     "latest_version": "1.0.0",
     "force_update": false,
