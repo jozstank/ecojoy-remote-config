@@ -74,11 +74,11 @@
     },
     {
       "id": "all_devices_reminder",
-      "enabled": true,
+      "enabled": false,
       "target": "both",
       "scope": "all",
       "machine_ids": [],
-      "block_app": true,
+      "block_app": false,
       "title": "License reminder",
       "message": "Please ensure your Machine ID ({machine_id}) is registered with the administrator.",
       "title_mm": "လိုင်စင်သတိပေးချက်",
